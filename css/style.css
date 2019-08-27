@@ -1,0 +1,196 @@
+.parent {
+    position: relative;
+    margin: 30px auto 0;
+    height: 600px;
+    width: 600px;
+    background: black;
+
+}
+
+.block {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background: green;
+    color: white;
+    line-height: 200px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.block-one {
+    background: teal;
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.block-two {
+    top: 40px;
+    left: 40px;
+    background: magenta;
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.block-three {
+    top: 90px;
+    left: 90px;
+    background: lime;
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.block-four {
+    top: 140px;
+    left: 140px;
+    background: aqua;
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.block-five {
+    top: 200px;
+    left: 200px;
+    background: coral;
+    z-index: 4;
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.block-six {
+    bottom: 140px;
+    right: 140px; 
+    background: aqua;
+    z-index: 3;
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.block-seven {
+    bottom: 90px;
+    right: 90px;
+    background: lime;
+    z-index: 2;
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.block-eight {
+    bottom: 40px;
+    right: 40px;
+    background: magenta;
+    z-index: 1;
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.block-nine {
+    bottom: 0px;
+    right: 0px;
+    background: teal;
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.block-ten {
+    top: 0px;
+    right: 0px;
+    background: teal;
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.block-eleven {
+    top: 40px;
+    right: 40px;
+    background: magenta;
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.block-twelve {
+    top: 90px;
+    right: 90px;
+    background: lime;
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.block-thirteen {
+    top: 140px;
+    right: 140px;
+    background: aqua;
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.block-fourteen {
+    bottom: 140px;
+    left: 140px; 
+    background: aqua;
+    z-index: 3;
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.block-fifteen {
+    bottom: 90px;
+    left: 90px;
+    background: lime;
+    z-index: 2;
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.block-sixteen {
+    bottom: 40px;
+    left: 40px;
+    background: magenta;
+    z-index: 1;
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.block-seventeen {
+    bottom: 0px;
+    left: 0px;
+    background: teal;
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg)
+    }
+}
